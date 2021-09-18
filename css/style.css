@@ -15,6 +15,8 @@ header{
   width: 100%;
   background: #fff;
   padding:15px 0px;
+  position:fixed;
+  z-index: 20;
 }
 
 a{
@@ -60,15 +62,11 @@ a{
   padding-bottom: 400px;
 }
 
-.keyvisual{
-  text-align: center;
-  margin:0 auto;
-}
-
 .main-title{
   font-size: 65px;
   font-weight: 700;
   color:#6ba7eb;
+  text-align: center;
 }
 
 .sub-title{
@@ -76,6 +74,7 @@ a{
   font-weight: 700;
   color:#ffffff;
   margin-top:30px;
+  text-align: center;
 }
 /*keyvisual*/
 /*work*/
@@ -122,6 +121,7 @@ h2{
 .skills{
   background: #fff;
   padding-bottom: 70px;
+  z-index: 10;
 }
 .title-skills{
   padding: 50px;
