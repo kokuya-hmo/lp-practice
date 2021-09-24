@@ -19,9 +19,6 @@ header{
   z-index: 20;
 }
 
-a{
-  display: block;
-}
 .fa-archway{
   color: #777;
 }
@@ -29,13 +26,15 @@ a{
   width:1100px;
   margin:0 auto;
 }
-
+a{
+  display: block;
+}
 .contact_btn{
  text-decoration: none;
  color:unset;
 }
 
-.inner_header{
+.header-layout{
   display: flex;
   justify-content: space-between;
 }
@@ -61,31 +60,34 @@ a{
   padding-top:78px;
 }
 
+.title-padding{
+  padding-top:400px;
+  padding-bottom:400px;
+}
+
 .main-title{
   font-size: 65px;
   font-weight: 700;
   color:#6ba7eb;
   text-align: center;
-  padding-top:400px;
+  margin-bottom:30px;
 }
 
 .sub-title{
   font-size: 40px;
   font-weight: 700;
   color:#ffffff;
-  padding-top:30px;
   text-align: center;
-  padding-bottom: 400px;
 }
 /*keyvisual*/
 /*work*/
 .work{
   width:100%;
   background: #e3f2fd;
+  padding-top: 50px;
 }
 
 .work-container{
-  padding-top: 50px;
   display: grid;
   grid-template-columns: 4fr 6fr;
 }
@@ -121,10 +123,11 @@ h2{
 .skills{
   background: #fff;
   padding-bottom: 70px;
+  padding-top:50px;
   z-index: 10;
 }
 .skills-title{
-  padding: 50px;
+  margin-bottom:50px;
 }
 .skillimage-container{
   display: flex;
@@ -194,7 +197,7 @@ h2{
   color:#8c8c8c;
   overflow: hidden;
   font-size: 40px;
-  padding: 25px;
+  margin: 25px 0;
   width:185px;
   text-align: center;
   text-decoration: none;
@@ -207,10 +210,11 @@ h2{
 /*footer*/
 footer{
   background: #cfd8dc;
-}
-.copyright{
   padding-top:20px;
   padding-bottom:20px;
+}
+.copyright{
+
   letter-spacing:0.5px;
   display: flex;
   justify-content: flex-end;
