@@ -202,10 +202,10 @@ h2{
   width:185px;
   text-align: center;
   text-decoration: none;
+  transition: 0.5s;
 }
 .sns_icon a:hover{
   background-color: #fff;
-  transition: 0.5s;
 }
 /*nav*/
 /*footer*/
