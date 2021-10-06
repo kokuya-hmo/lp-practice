@@ -134,9 +134,12 @@ h2{
 .skill_icon{
   opacity: 0.7;
   margin-right: 100px;
+  width:300px;
+  height:300px;
+  transition: 0.7s;
 }
 .skill_icon:nth-child(3n){
-  margin-right:0;
+  margin-right:0px;
 }
 .skill_icon:nth-child(n+4){
   margin-top:100px;
@@ -195,7 +198,7 @@ h2{
   color:#8c8c8c;
   overflow: hidden;
   font-size: 40px;
-  margin: 25px 0;
+  padding: 25px 0;
   width:185px;
   text-align: center;
   text-decoration: none;
@@ -232,33 +235,37 @@ footer{
   /*work*/
   .work{
     padding-bottom: 50px;
-    width:100%;
   }
   .work-container{
-    display:unset;
+    display:block;
   }
   /*work*/
   /*skills*/
   .skillimage-container{
     display:block;
-    text-align: center;
   }
   .skill_icon{
-    margin-right: 0px;
+    margin:0 auto;
   }
-  .skill_icon:nth-child(4n){
-    margin-top: 80px;
+  .skill_icon:nth-child(3n){
+    margin-bottom:80px;
+    margin-right: auto;
   }
-  .skill_icon:nth-child(n+5){
-    margin-top:0px;
+  .skill_icon:nth-child(n+4){
+    margin-top: 0px;
+  }
+  .skill_icon:nth-last-child(1){
+    margin-bottom: 0px;
   }
   /*skills*/
 }
+/*plan*/
+.cell-table{
+  width:100%;
+}
+/*plan*/
 
 @media screen and (max-width: 767px){
-  .inner{
-    width: 97%;
-  }
   /*header*/
   #humburger {
     position:relative;
@@ -307,11 +314,6 @@ footer{
     font-size: 30px;
   }
   /*keyvisual*/
-  /*work*/
-  .work{
-    width:100%;
-  }
-  /*work*/
   /*plan*/
   .cell-table{
     width:100%;
@@ -326,15 +328,15 @@ footer{
   /*plan*/
   /*sns*/
   .sns{
-    padding-top:50px;
-    padding-bottom:50px;
+    padding:50px 15px;
   }
   .sns_icon{
-    display:block;
+    display: block;
   }
   .sns_icon a{
-    margin: 50px 15px 50px 15px;
-    width:100%;
+    padding-top: 50px;
+    padding-bottom:50px;
+    width: 100%;
   }
   /*sns*/
 }
